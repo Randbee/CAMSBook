@@ -1,0 +1,49 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption:
+    chapters:
+      - url: https://atmosphere.copernicus.eu/
+        title: CAMS
+      - url: https://ads.atmosphere.copernicus.eu/
+        title: ADS Data Store
+      - url: https://atmosphere.copernicus.eu/training
+        title: CAMS Training
+  - caption: Introduction
+    chapters:
+      - file: how-to-run-these-tutorials
+        title: How to run these tutorials
+  - caption: Data Access Tutorials
+    chapters:
+      - file: notebooks/da-ads-tutorial/da-ads-tutorial
+      - file: notebooks/da-read-write/da-read-write
+        title: Import, Reduce, Export
+  - caption: Data Visualisation Tutorials
+    chapters:
+      - file: notebooks/vis-maps/vis-maps
+        title: Maps
+      - file: notebooks/vis-animations/vis-animations
+        title: Animations
+      - file: notebooks/vis-time-series/vis-time-series
+        title: Time Series
+      - file: notebooks/vis-profiles/vis-profiles
+        title: Profile Plots and Zonal Means
+  - caption: Data Processing Tutorials
+    chapters:
+      - file: notebooks/proc-aq-index/proc-aq-index
+        title: Air Quality Index
+      - file: notebooks/proc-ozone/proc-ozone
+        title: Antarctic Ozone Hole Monitoring
+  - caption: Explore other books📚
+    chapters:
+      - url: https://ecmwf-projects.github.io/copernicus-training-c3s/
+        title: C3S Climate Data Store (CDS) Training Book
+      - url: https://ecmwfcode4earth.github.io/sketchbook-earth
+        title: Sketchbook Earth - A collection of Jupyter notebooks for Earth
+  - caption: ECMWF
+    chapters:
+      - file: support
+        title: Help&Support
