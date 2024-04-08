@@ -1,4 +1,4 @@
-![logo](./img/LogoLine_EC_Cop_ECMWF.png)
+![logo](./LogoLine_EC_Cop_ECMWF.png)
 
 # Welcome to CAMS book
 
