@@ -1,0 +1,24 @@
+[submodule "notebooks/vis-profiles"]
+	path = notebooks/vis-profiles
+	url = https://github.com/Randbee/vis-profiles.git
+[submodule "notebooks/proc-aq-index"]
+	path = notebooks/proc-aq-index
+	url = https://github.com/Randbee/proc-aq-index.git
+[submodule "notebooks/vis-animations"]
+	path = notebooks/vis-animations
+	url = https://github.com/Randbee/vis-animations.git
+[submodule "notebooks/da-ads-tutorial"]
+	path = notebooks/da-ads-tutorial
+	url = https://github.com/Randbee/da-ads-tutorial.git
+[submodule "notebooks/da-read-write"]
+	path = notebooks/da-read-write
+	url = https://github.com/Randbee/da-read-write.git
+[submodule "notebooks/vis-maps"]
+	path = notebooks/vis-maps
+	url = https://github.com/Randbee/vis-maps.git
+[submodule "notebooks/proc-ozone"]
+	path = notebooks/proc-ozone
+	url = https://github.com/Randbee/proc-ozone.git
+[submodule "notebooks/vis-time-series"]
+	path = notebooks/vis-time-series
+	url = https://github.com/Randbee/vis-time-series.git
