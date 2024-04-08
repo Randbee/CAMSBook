@@ -2,7 +2,7 @@ from github import Github
 import os
 
 # GitHub authentication (you'll need an access token)
-ACCESS_TOKEN = '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'
+ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
 g = Github(ACCESS_TOKEN)
 
 # Base directory where the notebook folders are located
