@@ -1,4 +1,7 @@
+
+#install PyGithub
 from github import Github
+
 import os
 
 # GitHub authentication (you'll need an access token)
@@ -15,7 +18,7 @@ for folder_name in os.listdir(base_directory):
         # Create a repository on GitHub with the folder name
         repo_name = folder_name.replace(' ', '-')  # Remove spaces in folder name
         user = g.get_user()
-        repo = user.create_repo(repo_name)
+        repo = user.create_repo(repo_name, private=True)
 
         # Add the .ipynb file to the repository
         notebook_file = [file for file in os.listdir(folder_path) if file.endswith('.ipynb')]
