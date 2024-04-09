@@ -443,9 +443,6 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outline">Outline</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites-and-assumed-knowledge">Prerequisites and assumed knowledge</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target audience</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about">1. About</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-retrieval">2. Data retrieval</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#access-data-interactively-via-the-ads-web-interface">2.1 Access data interactively via the ADS web interface</a><ul class="nav section-nav flex-column">
@@ -495,35 +492,23 @@ document.write(`
 </li>
 <li><p>3 - Example: CAMS data request</p></li>
 </ul>
-<hr><div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p><strong>Difficulty</strong>
-1/5</p>
-</div>
-</section>
-<section id="learning-objectives">
-<h2>Learning objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
-<p>The notebook provides a comprehensive tutorial on accessing and retrieving data from the Copernicus Atmosphere Data Store (ADS). Key learning objectives include:</p>
-<ol class="arabic simple">
-<li><p>Understanding the purpose and functionality of the ADS.</p></li>
-<li><p>Learning to access data interactively via the web interface and programmatically using the CDS API.</p></li>
-<li><p>Familiarizing with the process of browsing datasets, selecting data, and submitting download forms via the ADS web interface.</p></li>
-<li><p>Acquiring knowledge on installing the CDS API, obtaining API keys, and making data retrieval requests programmatically.</p></li>
-<li><p>Exploring additional resources like documentation and error messages.</p></li>
-<li><p>Applying learned concepts through an example CAMS data request, including specifying parameters and retrieving data in desired formats.</p></li>
-</ol>
-</section>
-<section id="prerequisites-and-assumed-knowledge">
-<h2>Prerequisites and assumed knowledge<a class="headerlink" href="#prerequisites-and-assumed-knowledge" title="Link to this heading">#</a></h2>
-<ol class="arabic simple">
-<li><p><strong>Basic Programming Skills</strong>: Familiarity with programming concepts, particularly in Python, is assumed, as the tutorial involves using Python libraries like cdsapi for accessing data programmatically.</p></li>
-<li><p><strong>Familiarity with API Usage</strong>: Understanding of Application Programming Interfaces (APIs) and how to use them to interact with web services will be helpful, particularly for accessing data programmatically through the CDS API.</p></li>
-</ol>
-</section>
-<section id="target-audience">
-<h2>Target audience<a class="headerlink" href="#target-audience" title="Link to this heading">#</a></h2>
-<p>The target audience for this notebook is people who are interested in accessing and retrieving data from the Copernicus Atmosphere Data Store (ADS). Whether users aim to interactively access data via the ADS web interface or programmatically through the CDS API, this tutorial offers comprehensive guidance on dataset navigation, download request submission, and understanding ADS functionalities.</p>
-<hr></section>
+<style>
+td, th {
+   border: 1px solid white;
+   border-collapse: collapse;
+}
+</style>
+<table align="left">
+  <tr>
+    <th>Run the tutorial via free cloud platforms: </th>
+    <th><a href="https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training-cams/master?labpath=da-ads-tutorial.ipynb">
+        <img src = "https://mybinder.org/badge.svg" alt = "Binder"></th>
+    <th><a href="https://kaggle.com/kernels/welcome?src=https://github.com/ecmwf-projects/copernicus-training-cams/blob/master/da-ads-tutorial.ipynb">
+        <img src = "https://kaggle.com/static/images/open-in-kaggle.svg" alt = "Kaggle"></th>
+    <th><a href="https://colab.research.google.com/github/ecmwf-projects/copernicus-training-cams/blob/master/da-ads-tutorial.ipynb">
+        <img src = "https://colab.research.google.com/assets/colab-badge.svg" alt = "Colab"></th>
+  </tr>
+</table><hr></section>
 <section id="about">
 <h2>1. About<a class="headerlink" href="#about" title="Link to this heading">#</a></h2>
 <p>The <a class="reference external" href="https://ads.atmosphere.copernicus.eu/">Copernicus Atmosphere Data Store (ADS)</a> is the data access portal of the <a class="reference external" href="https://atmosphere.copernicus.eu/">Copernicus Atmosphere Monitoring Service (CAMS)</a> and offers access to data about the <code class="docutils literal notranslate"><span class="pre">Earth's</span> <span class="pre">past,</span> <span class="pre">present</span> <span class="pre">and</span> <span class="pre">future</span> <span class="pre">atmosphere</span></code>. Find more information in the <a class="reference external" href="https://confluence.ecmwf.int/display/CKB/Atmosphere+Data+Store+%28ADS%29+documentation">Atmosphere Data Store (ADS) documentation</a>.</p>
@@ -768,9 +753,6 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outline">Outline</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites-and-assumed-knowledge">Prerequisites and assumed knowledge</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target audience</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about">1. About</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-retrieval">2. Data retrieval</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#access-data-interactively-via-the-ads-web-interface">2.1 Access data interactively via the ADS web interface</a><ul class="nav section-nav flex-column">
