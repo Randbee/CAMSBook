@@ -411,7 +411,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wekeo">WEKEO</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wekeo">WEKEO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cloud-based-services">Cloud-based services</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binder">Binder</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kaggle">Kaggle</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#colab">Colab</a></li>
@@ -455,6 +456,9 @@ document.write(`
 <h2>WEKEO<a class="headerlink" href="#wekeo" title="Link to this heading">#</a></h2>
 <p><a class="reference external" href="https://www.wekeo.eu/">WEKEO</a> is the EU Copernicus DIAS reference service for environmental data, virtual processing environments, and skilled user support. It is a platform for all audiences. This is our official platform for accessing the notebooks. You can access every notebook by clicking on the WEkEO link, which will redirect you to our official website. From there, you can open the notebook directly in JupyterHub. You need to be <a class="reference external" href="https://www.wekeo.eu/register">signed up</a> to access the notebooks.</p>
 <hr>
+</section>
+<section id="cloud-based-services">
+<h2>Cloud-based services<a class="headerlink" href="#cloud-based-services" title="Link to this heading">#</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>These free cloud-based services are not supported by ECMWF</p>
@@ -487,9 +491,11 @@ document.write(`
 </section>
 <section id="run-the-notebooks-locally">
 <h2>Run the notebooks locally<a class="headerlink" href="#run-the-notebooks-locally" title="Link to this heading">#</a></h2>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>If you would like to run this notebook in your own environment, we suggest you install <a class="reference external" href="https://docs.anaconda.com/anaconda/install/">Anaconda</a>, which contains most of the libraries you will need. You will also need to install <a class="reference external" href="http://xarray.pydata.org/en/stable/">Xarray</a> for working with multidimensional data in netcdf files, and the ADS API (<code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">cdsapi</span></code>) for downloading data programatically from the ADS.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>If you would like to run this notebook in your own environment, we suggest you install <a class="reference external" href="https://docs.anaconda.com/anaconda/install/">Anaconda</a>, which contains most of the libraries you will need.<br>
+In our <a class="reference external" href="https://github.com/Randbee/CAMSBook">github repository</a> you can find every notebook in <code class="docutils literal notranslate"><span class="pre">notebooks/</span></code> folder. Also, there is a <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file, containing the necessary python libraries for running our notebooks.You need to run this command in the same directory as the requirements.txt file.</p>
+<p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p>
 </div>
 <p>To visualize and execute the notebooks, we recommend downloading <a class="reference external" href="https://jupyter.org/">JupyterLab</a>, a versatile web-based interactive development environment. You can interact with our notebooks in this environment locally.</p>
 <ol class="arabic">
@@ -599,7 +605,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wekeo">WEKEO</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wekeo">WEKEO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cloud-based-services">Cloud-based services</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binder">Binder</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kaggle">Kaggle</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#colab">Colab</a></li>
