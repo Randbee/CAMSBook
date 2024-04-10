@@ -210,7 +210,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Explore other books📚</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference external" href="https://ecmwf-projects.github.io/copernicus-training-c3s/">C3S Climate Data Store (CDS) Training Book</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://randbee.github.io/C3SBook/">C3S Climate Data Store (CDS) Training Book</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://ecmwfcode4earth.github.io/sketchbook-earth">Sketchbook Earth - A collection of Jupyter notebooks for Earth</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">ECMWF</span></p>
@@ -270,7 +270,7 @@
       
       
       
-      <li><a href="https://github.com/Randbee/CAMSBook" target="_blank"
+      <li><a href="https://github.com/ecmwf-projects/copernicus-training-cams" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -287,7 +287,7 @@
       
       
       
-      <li><a href="https://github.com/Randbee/CAMSBook/issues/new?title=Issue%20on%20page%20%2Fhow-to-run-these-tutorials.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/ecmwf-projects/copernicus-training-cams/issues/new?title=Issue%20on%20page%20%2Fhow-to-run-these-tutorials.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -411,10 +411,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#binder">Binder</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kaggle">Kaggle</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colab">Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wekeo">WEKEO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wekeo">WEKEO</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binder">Binder</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kaggle">Kaggle</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#colab">Colab</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#run-the-notebooks-locally">Run the notebooks locally</a></li>
 </ul>
             </nav>
@@ -448,12 +450,17 @@ document.write(`
 </tr>
 </tbody>
 </table>
+<hr>
+<section id="wekeo">
+<h2>WEKEO<a class="headerlink" href="#wekeo" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.wekeo.eu/">WEKEO</a> is the EU Copernicus DIAS reference service for environmental data, virtual processing environments, and skilled user support. It is a platform for all audiences. This is our official platform for accessing the notebooks. You can access every notebook by clicking on the WEkEO link, which will redirect you to our official website. From there, you can open the notebook directly in JupyterHub. You need to be <a class="reference external" href="https://www.wekeo.eu/register">signed up</a> to access the notebooks.</p>
+<hr>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>These free cloud-based services are not supported by ECMWF</p>
 </div>
 <section id="binder">
-<h2>Binder<a class="headerlink" href="#binder" title="Link to this heading">#</a></h2>
+<h3>Binder<a class="headerlink" href="#binder" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p>Click on the Binder badge</p></li>
 <li><p>Wait for the Binder environment to load.</p></li>
@@ -461,7 +468,7 @@ document.write(`
 </ol>
 </section>
 <section id="kaggle">
-<h2>Kaggle<a class="headerlink" href="#kaggle" title="Link to this heading">#</a></h2>
+<h3>Kaggle<a class="headerlink" href="#kaggle" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p>Click on the Kaggle badge</p></li>
 <li><p>If you’re not logged in to Kaggle, sign in or create a free account.</p></li>
@@ -469,17 +476,14 @@ document.write(`
 </ol>
 </section>
 <section id="colab">
-<h2>Colab<a class="headerlink" href="#colab" title="Link to this heading">#</a></h2>
+<h3>Colab<a class="headerlink" href="#colab" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p>Click on the Colab badge</p></li>
 <li><p>If prompted, sign in to your Google account.</p></li>
 <li><p>Once signed in, the notebook will open in Google Colab. You can then interact with and run the notebook in the Colab environment.</p></li>
 </ol>
+<hr>
 </section>
-<section id="wekeo">
-<h2>WEKEO<a class="headerlink" href="#wekeo" title="Link to this heading">#</a></h2>
-<p><a class="reference external" href="https://www.wekeo.eu/">WEKEO</a> is the EU Copernicus DIAS reference service for environmental data, virtual processing environments, and skilled user support. It is a platform for all audiences. This is our official platform for accessing the notebooks. You can access every notebook by clicking on the WEkEO link, which will redirect you to our official website. From there, you can open the notebook directly in JupyterHub. You need to be <a class="reference external" href="https://www.wekeo.eu/register">signed up</a> to access the notebooks.</p>
-<p>If you don’t have Jupyter installed, here is a guide on how to install JupyterLab and open notebooks.</p>
 </section>
 <section id="run-the-notebooks-locally">
 <h2>Run the notebooks locally<a class="headerlink" href="#run-the-notebooks-locally" title="Link to this heading">#</a></h2>
@@ -487,34 +491,42 @@ document.write(`
 <p class="admonition-title">Tip</p>
 <p>If you would like to run this notebook in your own environment, we suggest you install <a class="reference external" href="https://docs.anaconda.com/anaconda/install/">Anaconda</a>, which contains most of the libraries you will need. You will also need to install <a class="reference external" href="http://xarray.pydata.org/en/stable/">Xarray</a> for working with multidimensional data in netcdf files, and the ADS API (<code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">cdsapi</span></code>) for downloading data programatically from the ADS.</p>
 </div>
-<p>In order to visualize and execute the notebooks, we recommend downloading JupyterLab, a a versatile web-based interactive development environment. You can see and play with our notebooks in that environment locally.</p>
-<ol class="arabic simple">
-<li><p>Download JupyterLab:</p>
-<ol class="arabic simple">
-<li><p>Visit the JupyterLab website in your web browser.</p></li>
-<li><p>Go to the “Install” section and follow the instructions to download and install JupyterLab according to your operating system (Windows, macOS, or Linux).</p></li>
-</ol>
+<p>To visualize and execute the notebooks, we recommend downloading <a class="reference external" href="https://jupyter.org/">JupyterLab</a>, a versatile web-based interactive development environment. You can interact with our notebooks in this environment locally.</p>
+<ol class="arabic">
+<li><p><strong>Download JupyterLab</strong>:</p>
+<ul class="simple">
+<li><p>Visit the <a class="reference external" href="https://jupyter.org/install">JupyterLab installation website</a> in your web browser.</p></li>
+<li><p>Navigate to the “Install” section and follow the instructions to download and install JupyterLab for your operating system (Windows, macOS, or Linux).</p></li>
+</ul>
+<p><img alt="Jupyter Lab install screenshot" src="_images/jupyter-lab-install.png" /></p>
 </li>
-<li><p>Launch JupyterLab:</p>
-<ol class="arabic simple">
+<li><p><strong>Launch JupyterLab</strong>:</p>
+<ul class="simple">
 <li><p>After installing JupyterLab, open your terminal or command prompt.</p></li>
-<li><p>Type jupyter lab and press Enter to launch JupyterLab. This will start a local server and open JupyterLab in your default web browser.</p></li>
-</ol>
+<li><p>Type <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">lab</span></code> and press Enter to launch JupyterLab. This will start a local server and open JupyterLab in your default web browser.</p></li>
+</ul>
 </li>
-<li><p>Access JupyterLab Interface:
-Once JupyterLab is launched, you will see the JupyterLab interface in your web browser. It consists of a file browser on the left and a main work area on the right.</p></li>
-<li><p>Open a Notebook:</p>
-<ol class="arabic simple">
+<li><p><strong>Access JupyterLab Interface</strong>:</p>
+<ul class="simple">
+<li><p>Once JupyterLab is launched, you will see the JupyterLab interface in your web browser. It consists of a file browser on the left and a main work area on the right.</p></li>
+</ul>
+<p><img alt="Jupyter Lab Interface" src="_images/jupyter-lab-interface.png" /></p>
+</li>
+<li><p><strong>Open a Notebook</strong>:</p>
+<ul class="simple">
 <li><p>You can download every notebook by clicking on the download button at the top of the webpage.</p></li>
 <li><p>Navigate to the directory where your notebook is located using the file browser on the left.</p></li>
-<li><p>Click on the notebook file (usually with a .ipynb extension) to open it in JupyterLab.</p></li>
+<li><p>Click on the notebook file (usually with a <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> extension) to open it in JupyterLab.</p></li>
 <li><p>The notebook will open in a new tab within the main work area of JupyterLab.</p></li>
-</ol>
+</ul>
 </li>
-<li><p>Interact with the Notebook:
-You can now interact with the notebook by running code cells, editing text, and executing various commands.
-To run a code cell, select it and either click the “Run” button in the toolbar or press Shift + Enter.
-Explore the different features of JupyterLab to customize your workflow and make the most out of your notebook experience.</p></li>
+<li><p><strong>Interact with the Notebook</strong>:</p>
+<ul class="simple">
+<li><p>You can now interact with the notebook by running code cells, editing text, and executing various commands.</p></li>
+<li><p>To run a code cell, select it and either click the “Run” button in the toolbar or press Shift + Enter.</p></li>
+<li><p>Explore the different features of JupyterLab to customize your workflow and make the most out of your notebook experience.</p></li>
+</ul>
+</li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -587,10 +599,12 @@ Explore the different features of JupyterLab to customize your workflow and make
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#binder">Binder</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kaggle">Kaggle</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colab">Colab</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wekeo">WEKEO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wekeo">WEKEO</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binder">Binder</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kaggle">Kaggle</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#colab">Colab</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#run-the-notebooks-locally">Run the notebooks locally</a></li>
 </ul>
   </nav></div>
