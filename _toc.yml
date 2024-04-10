@@ -39,7 +39,7 @@ parts:
         title: Antarctic Ozone Hole Monitoring
   - caption: Explore other books📚
     chapters:
-      - url: https://ecmwf-projects.github.io/copernicus-training-c3s/
+      - url: https://randbee.github.io/C3SBook/
         title: C3S Climate Data Store (CDS) Training Book
       - url: https://ecmwfcode4earth.github.io/sketchbook-earth
         title: Sketchbook Earth - A collection of Jupyter notebooks for Earth
