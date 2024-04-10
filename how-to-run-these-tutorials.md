@@ -15,6 +15,8 @@ The tutorials are in the form of [Jupyter notebooks](https://jupyter.org/). You 
 
 <hr>
 
+#### Cloud-based services
+
 ```{warning}
 These free cloud-based services are not supported by ECMWF
 ```
@@ -41,8 +43,12 @@ These free cloud-based services are not supported by ECMWF
 
 #### Run the notebooks locally
 
-```{tip}
-If you would like to run this notebook in your own environment, we suggest you install [Anaconda](https://docs.anaconda.com/anaconda/install/), which contains most of the libraries you will need. You will also need to install [Xarray](http://xarray.pydata.org/en/stable/) for working with multidimensional data in netcdf files, and the ADS API (`pip install cdsapi`) for downloading data programatically from the ADS.
+```{attention}
+If you would like to run this notebook in your own environment, we suggest you install [Anaconda](https://docs.anaconda.com/anaconda/install/), which contains most of the libraries you will need.<br>
+In our [github repository](https://github.com/Randbee/CAMSBook) you can find every notebook in `notebooks/` folder. Also, there is a `requirements.txt` file, containing the necessary python libraries for running our notebooks.You need to run this command in the same directory as the requirements.txt file.
+
+`pip install -r requirements.txt`
+
 ```
 
 To visualize and execute the notebooks, we recommend downloading [JupyterLab](https://jupyter.org/), a versatile web-based interactive development environment. You can interact with our notebooks in this environment locally.
