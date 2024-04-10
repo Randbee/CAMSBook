@@ -1,6 +1,8 @@
 # How to run these tutorials
 
-The tutorials are in the form of [Jupyter notebooks](https://jupyter.org/). You will not need to install any software as there are a number of free cloud-based services to create, edit, run and export Jupyter notebooks such as these. At the top of each tutorial you will find links to a selection of such cloud-based services to run the tutorial. These may include the following:
+The tutorials are in the form of [Jupyter notebooks](https://jupyter.org/), a powerful tool for interactive computing. Jupyter notebooks allow you to write and execute code, view the results, and add explanatory text all in one document. They are widely used in data science, research, and education due to their versatility and ease of use.
+
+You will not need to install any software to work with Jupyter notebooks, as there are several free cloud-based services available for creating, editing, running, and exporting notebooks. These services provide a hassle-free environment where you can focus on your analysis without worrying about software installation or compatibility issues.
 
 |                               Binder                               |                                            Kaggle                                             |                                                  Colab                                                   |
 | :----------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
@@ -9,31 +11,31 @@ The tutorials are in the form of [Jupyter notebooks](https://jupyter.org/). You 
 
 <hr>
 
-#### WEKEO
+## WEKEO
 
 [WEKEO](https://www.wekeo.eu/) is the EU Copernicus DIAS reference service for environmental data, virtual processing environments, and skilled user support. It is a platform for all audiences. This is our official platform for accessing the notebooks. You can access every notebook by clicking on the WEkEO link, which will redirect you to our official website. From there, you can open the notebook directly in JupyterHub. You need to be [signed up](https://www.wekeo.eu/register) to access the notebooks.
 
 <hr>
 
-#### Cloud-based services
+## Cloud-based services
 
 ```{warning}
 These free cloud-based services are not supported by ECMWF
 ```
 
-##### Binder
+### Binder
 
 1. Click on the Binder badge
 2. Wait for the Binder environment to load.
 3. Once loaded, navigate to the desired notebook and click on it to open and interact with it.
 
-##### Kaggle
+### Kaggle
 
 1. Click on the Kaggle badge
 2. If you're not logged in to Kaggle, sign in or create a free account.
 3. After signing in, you'll be redirected to the Kaggle notebook interface with the option to open the notebook. Click on it to proceed.
 
-##### Colab
+### Colab
 
 1. Click on the Colab badge
 2. If prompted, sign in to your Google account.
@@ -41,7 +43,7 @@ These free cloud-based services are not supported by ECMWF
 
 <hr>
 
-#### Run the notebooks locally
+## Run the notebooks locally
 
 ```{attention}
 If you would like to run this notebook in your own environment, we suggest you install [Anaconda](https://docs.anaconda.com/anaconda/install/), which contains most of the libraries you will need.<br>
