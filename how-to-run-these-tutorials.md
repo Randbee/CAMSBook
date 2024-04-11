@@ -4,11 +4,6 @@ The tutorials are in the form of [Jupyter notebooks](https://jupyter.org/), a po
 
 You will not need to install any software to work with Jupyter notebooks, as there are several free cloud-based services available for creating, editing, running, and exporting notebooks. These services provide a hassle-free environment where you can focus on your analysis without worrying about software installation or compatibility issues.
 
-|                               Binder                               |                                            Kaggle                                             |                                                  Colab                                                   |
-| :----------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-| [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) |
-|      Binder may take some time to load, so please be patient!      |   Requires (free) registration with Kaggle. Once in, "switch on the internet" via settings    |   Requires Google account, and installation of some libraries, such as Cartopy `!pip install cartopy`    |
-
 <hr>
 
 ## WEKEO
@@ -22,6 +17,11 @@ You will not need to install any software to work with Jupyter notebooks, as the
 ```{warning}
 These free cloud-based services are not supported by ECMWF
 ```
+
+|                               Binder                               |                                            Kaggle                                             |                                                  Colab                                                   |
+| :----------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+| [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) |
+|      Binder may take some time to load, so please be patient!      |   Requires (free) registration with Kaggle. Once in, "switch on the internet" via settings    |   Requires Google account, and installation of some libraries, such as Cartopy `!pip install cartopy`    |
 
 ### Binder
 
@@ -76,6 +76,7 @@ To visualize and execute the notebooks, we recommend downloading [JupyterLab](ht
 4. **Open a Notebook**:
 
    - You can download every notebook by clicking on the download button at the top of the webpage.
+     ![Download notebook](download-notebook.jpg)
    - Navigate to the directory where your notebook is located using the file browser on the left.
    - Click on the notebook file (usually with a `.ipynb` extension) to open it in JupyterLab.
    - The notebook will open in a new tab within the main work area of JupyterLab.
