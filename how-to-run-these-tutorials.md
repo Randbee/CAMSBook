@@ -54,10 +54,13 @@ In our [github repository](https://github.com/Randbee/CAMSBook) you can find eve
 ```
 
 To visualize and execute the notebooks, we recommend downloading [JupyterLab](https://jupyter.org/), a versatile web-based interactive development environment. You can interact with our notebooks in this environment locally.
+:::{note}
+If you prefer a lightweight interface and want to consum less resources, you may consider downloading Jupyter Notebook instead of Jupyter Lab. Jupyter Notebook provides a basic yet efficient environment for running your notebooks without consuming as many resources. It's a great option for users who prioritize simplicity and performance in their workflow. Here's documentation of [Jupyter Notebook](https://docs.jupyter.org/en/latest/start/index.html)
+:::
 
 1. **Download JupyterLab**:
 
-   - Visit the [JupyterLab installation website](https://jupyter.org/install) in your web browser.
+   - Visit the [Jupyter installation website](https://jupyter.org/install) in your web browser.
    - Navigate to the "Install" section and follow the instructions to download and install JupyterLab for your operating system (Windows, macOS, or Linux).
 
    ![Jupyter Lab install screenshot](jupyter-lab-install.png)
