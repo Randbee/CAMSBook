@@ -3,3 +3,4 @@
 .ipynb_checkpoints/
 scripts/
 _build
+test.py
