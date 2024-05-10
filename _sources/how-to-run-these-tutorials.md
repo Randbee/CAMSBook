@@ -6,40 +6,62 @@ You will not need to install any software to work with Jupyter notebooks, as the
 
 <hr>
 
-## WEKEO
+## Possible Cloud-based services
+
+:::{dropdown} WEKEO
 
 [WEKEO](https://www.wekeo.eu/) is the EU Copernicus DIAS reference service for environmental data, virtual processing environments, and skilled user support. It is a platform for all audiences. This is our official platform for accessing the notebooks. You can access every notebook by clicking on the WEkEO link, which will redirect you to our official website. From there, you can open the notebook directly in JupyterHub. You need to be [signed up](https://www.wekeo.eu/register) to access the notebooks.
 
-<hr>
-
-## Cloud-based services
+:::
 
 ```{warning}
 These free cloud-based services are not supported by ECMWF
 ```
 
-|                               Binder                               |                                            Kaggle                                             |                                                  Colab                                                   |
-| :----------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-| [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) |
-|      Binder may take some time to load, so please be patient!      |   Requires (free) registration with Kaggle. Once in, "switch on the internet" via settings    |   Requires Google account, and installation of some libraries, such as Cartopy `!pip install cartopy`    |
+:::{dropdown} Binder
 
-### Binder
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/)
+
+```{note}
+Binder may take some time to load, so please be patient!
+```
 
 1. Click on the Binder badge
 2. Wait for the Binder environment to load.
 3. Once loaded, navigate to the desired notebook and click on it to open and interact with it.
+   :::
 
-### Kaggle
+:::{dropdown} Kaggle
+
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code)
+
+```{note}
+Requires (free) registration with Kaggle. Once in, `switch on the internet` via settings.
+```
 
 1. Click on the Kaggle badge
 2. If you're not logged in to Kaggle, sign in or create a free account.
 3. After signing in, you'll be redirected to the Kaggle notebook interface with the option to open the notebook. Click on it to proceed.
 
-### Colab
+:::
+
+:::{dropdown} Colab
+
+```{note}
+Requires Google account, and installation of some libraries, you can add our `requirements.txt` file and install all of them with `pip install -r requirements.txt`
+```
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
 1. Click on the Colab badge
 2. If prompted, sign in to your Google account.
 3. Once signed in, the notebook will open in Google Colab. You can then interact with and run the notebook in the Colab environment.
+
+:::
+
+:::{note}
+These cloud-based services represent only a selection of the available options for running notebooks in the cloud. Users can leverage these services to execute Jupyter notebooks without the need to install any software locally. However, it's essential to note that this selection is not exhaustive, and users may explore other cloud-based platforms tailored to their specific needs and preferences.
+:::
 
 <hr>
 
@@ -47,13 +69,14 @@ These free cloud-based services are not supported by ECMWF
 
 ```{attention}
 If you would like to run this notebook in your own environment, we suggest you install [Anaconda](https://docs.anaconda.com/anaconda/install/), which contains most of the libraries you will need.<br>
-In our [github repository](https://github.com/Randbee/CAMSBook) you can find every notebook in `notebooks/` folder. Also, there is a `requirements.txt` file, containing the necessary python libraries for running our notebooks.You need to run this command in the same directory as the requirements.txt file.
+In our [github repository](https://github.com/Randbee/C3SBook) you can find every notebook in `notebooks/` folder. Also, there is a `requirements.txt` file, containing the necessary python libraries for running our notebooks.You need to run this command in the same directory as the requirements.txt file.
 
 `pip install -r requirements.txt`
 
 ```
 
 To visualize and execute the notebooks, we recommend downloading [JupyterLab](https://jupyter.org/), a versatile web-based interactive development environment. You can interact with our notebooks in this environment locally.
+
 :::{note}
 If you prefer a lightweight interface and want to consum less resources, you may consider downloading Jupyter Notebook instead of Jupyter Lab. Jupyter Notebook provides a basic yet efficient environment for running your notebooks without consuming as many resources. It's a great option for users who prioritize simplicity and performance in their workflow. Here's documentation of [Jupyter Notebook](https://docs.jupyter.org/en/latest/start/index.html)
 :::
@@ -61,7 +84,7 @@ If you prefer a lightweight interface and want to consum less resources, you may
 1. **Download JupyterLab**:
 
    - Visit the [Jupyter installation website](https://jupyter.org/install) in your web browser.
-   - Navigate to the "Install" section and follow the instructions to download and install JupyterLab for your operating system (Windows, macOS, or Linux).
+   - Navigate to the `Jupyter Lab` section and follow the instructions to download and install JupyterLab for your operating system (Windows, macOS, or Linux).
 
    ![Jupyter Lab install screenshot](jupyter-lab-install.png)
 
