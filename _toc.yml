@@ -28,7 +28,7 @@ parts:
         sections:
           - file: notebooks/da-read-write/da-read-write
             title: Import, Reduce, Export
-      - file: notebook-groups/vis-maps
+      - file: notebook-groups/data-visualisation
         title: Data Visualisation
         sections:
           - file: notebooks/vis-maps/vis-maps
@@ -39,7 +39,7 @@ parts:
             title: Time Series
           - file: notebooks/vis-profiles/vis-profiles
             title: Profile Plots and Zonal Means
-      - file: notebook-groups/proc-aq-index
+      - file: notebook-groups/data-processing
         title: Data Processing
         sections:
           - file: notebooks/proc-aq-index/proc-aq-index
