@@ -1,7 +1,5 @@
 ![logo](./LogoLine_EC_Cop_ECMWF.png)
 
-# Welcome to CAMS book
-
 <br>
 
 # Copernicus Atmosphere Monitoring Service (CAMS) Data Tutorials

@@ -1,9 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: CAMS Training
+title: Copernicus Atmosphere Monitoring Service (CAMS) Training Book
 author: the Copernicus Atmosphere Monitoring Service (CAMS), entrusted to ECMWF (European Centre for Medium-Range Weather Forecasts)
-logo: CAMS–POS–LINE.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
