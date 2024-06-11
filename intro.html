@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="./" >
+<html lang="en" data-content_root="./" data-theme="light">
 
   <head>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@
   
   
   <script data-cfasync="false">
-    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "light";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
   
@@ -66,7 +66,7 @@
   </head>
   
   
-  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="light">
 
   
   
@@ -144,16 +144,20 @@
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
 
-  
+   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="https://atmosphere.copernicus.eu/">
   
   
   
   
   
+    
+    
+    
+    <img src="_static/CAMS–POS–LINE.png" class="logo__image only-light" alt="Copernicus Atmosphere Monitoring Service (CAMS) Training Book - Home"/>
+    <script>document.write(`<img src="_static/CAMS–POS–LINE.png" class="logo__image only-dark" alt="Copernicus Atmosphere Monitoring Service (CAMS) Training Book - Home"/>`);</script>
   
-    <p class="title logo__title">Copernicus Atmosphere Monitoring Service (CAMS) Training Book</p>
   
 </a></div>
         <div class="sidebar-primary-item">
